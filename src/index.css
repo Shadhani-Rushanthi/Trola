@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  overflow-clip-margin: hidden;
+}
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px){
+  body{
+    font-size:16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+  body{
+    font-size:15px;
+  }
+}
+@media only screen and (max-width: 479px){
+  body{
+    font-size:14px;
+  }
+}
